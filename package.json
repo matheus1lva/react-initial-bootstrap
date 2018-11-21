@@ -11,6 +11,7 @@
     "jest:lint": "jest --config jest-eslint.config.js",
     "test": "jest --coverage"
   },
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/polyfill": "^7.0.0",
