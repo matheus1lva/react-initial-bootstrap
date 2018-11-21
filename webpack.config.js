@@ -26,7 +26,10 @@ if (isDev) {
     static: [outputPath]
   }));
 } else {
-  plugins.push(new MiniCssExtractPlugin())
+  plugins.push(new MiniCssExtractPlugin({
+    filename: isDev ? '[name].css' : '[name].[contenthash].css',
+    chunkFilename: isDev ? '[id].css' : '[id].[contenthash].css'
+   ))
 }
 
 module.exports = {
