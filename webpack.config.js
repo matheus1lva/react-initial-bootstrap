@@ -29,7 +29,7 @@ if (isDev) {
   plugins.push(new MiniCssExtractPlugin({
     filename: isDev ? '[name].css' : '[name].[contenthash].css',
     chunkFilename: isDev ? '[id].css' : '[id].[contenthash].css'
-   ))
+   }))
 }
 
 module.exports = {
