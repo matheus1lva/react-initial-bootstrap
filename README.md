@@ -17,3 +17,4 @@ This example contains:
 * `babel-loader`
 * `css-loader`
 * `file-loader/url-loader` (for images and fonts)
+* `typescript`
