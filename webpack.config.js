@@ -8,7 +8,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 const outputPath = resolve(__dirname, 'dist');
 
-const entry = isDev ? ['./src/index.js', 'webpack-plugin-serve/client'] : './src/index.js';
+const entry = isDev ? ['./src/index.tsx', 'webpack-plugin-serve/client'] : './src/index.tsx';
 
 const plugins = [
   new HtmlWebpackPlugin(),
@@ -42,6 +42,11 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader']
+      },
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
       },
       {
         test: /\.css$/,
@@ -106,6 +111,9 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve: {
+    extensions: [ '.tsx', '.ts', '.js' ]
   },
   output: {
     path: outputPath,
