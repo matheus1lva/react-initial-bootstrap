@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../App';
+import App from '../App.tsx';
 import { render } from 'react-testing-library';
 
 describe('<App />', () => {
