@@ -7,7 +7,8 @@ module.exports = {
 	transformIgnorePatterns: ['node_modules/'],
 	coverageReporters: ['lcov', 'html'],
   transform: {
-    '^.+\\.js$': 'babel-jest',
+		'^.+\\.js$': 'babel-jest',
+		'^.+\\.tsx$': 'ts-jest'
 	},
 	testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.js?$',
 	moduleNameMapper: {
