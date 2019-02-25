@@ -53,62 +53,16 @@ module.exports = {
         use: !isDev ? [MiniCssExtractPlugin.loader, 'css-loader'] : ['style-loader', 'css-loader']
       },
       {
-        test: /\.woff(\?.*)?$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            name: 'fonts/[name].[ext]',
-            mimetype: 'application/font-woff'
-          }
-        }
-      },
-      {
-        test: /\.woff2(\?.*)?$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            name: 'fonts/[name].[ext]',
-            mimetype: 'application/font-woff2'
-          }
-        }
-      },
-      {
-        test: /\.(otf)(\?.*)?$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: 'fonts/[name].[ext]'
-          }
-        }
-      },
-      {
-        test: /\.ttf(\?.*)?$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            name: 'fonts/[name].[ext]',
-            mimetype: 'application/octet-stream'
-          }
-        }
-      },
-      {
-        test: /\.svg(\?.*)?$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            name: 'images/[name].[ext]',
-            mimetype: 'image/svg+xml'
-          }
-        }
-      },
-      {
-        test: /\.(png|jpg)(\?.*)?$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            name: 'images/[name].[ext]'
-          }
-        }
+        test: /\.(jpe?g|png|gif|svg|pdf|csv|xlsx|ttf|woff(2)?)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'img/',
+            },
+          },
+        ],
       }
     ]
   },
