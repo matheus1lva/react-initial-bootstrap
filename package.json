@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development wp --config ./webpack.config",
-    "build": "cross-env NODE_ENV=production wp --config ./webpack.config",
+    "build": "rimraf dist/ && cross-env NODE_ENV=production wp --config ./webpack.config",
     "jest:lint": "jest --config jest-eslint.config.js",
     "test": "jest --coverage"
   },
@@ -43,7 +43,8 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.29.5",
     "webpack-nano": "^0.6.0",
-    "webpack-plugin-serve": "^0.7.0"
+    "webpack-plugin-serve": "^0.7.0",
+    "rimraf": "^2.6.3"
   },
   "dependencies": {
     "@types/jest": "^24.0.6",
