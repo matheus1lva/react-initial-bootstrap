@@ -2,8 +2,15 @@
     "compilerOptions": {
       "outDir": "./dist/",
       "noImplicitAny": true,
-      "module": "es6",
+      "module": "esnext",
       "target": "es5",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "es2015"
+      ],
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
       "jsx": "react",
       "allowJs": true
     }

@@ -36,15 +36,16 @@
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-hot-loader": "^4.7.1",
+    "react-router-dom": "^4.3.1",
     "react-testing-library": "^6.0.0",
     "regenerator-runtime": "^0.13.1",
+    "rimraf": "^2.6.3",
     "style-loader": "^0.23.1",
     "ts-jest": "^24.0.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.29.5",
     "webpack-nano": "^0.6.0",
-    "webpack-plugin-serve": "^0.7.0",
-    "rimraf": "^2.6.3"
+    "webpack-plugin-serve": "^0.7.0"
   },
   "dependencies": {
     "@types/jest": "^24.0.6",

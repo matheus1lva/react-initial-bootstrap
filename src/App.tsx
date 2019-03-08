@@ -1,7 +1,17 @@
-import * as React from 'react';
-import * as hotloader from 'react-hot-loader';
+import React from 'react';
+import hotloader from 'react-hot-loader';
+import { BrowserRouter, Router, Switch } from 'react-router-dom';
 import './style.css';
+import Main from './Main';
 
-const App = () => <h1>Hi my world</h1>;
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Router exact path="/" component={Main} />                
+            </Switch>
+        </BrowserRouter>
+    )
+};
 
 export default hotloader.hot(module)(App);

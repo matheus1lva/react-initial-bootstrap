@@ -1,10 +1,10 @@
 import React from 'react';
-import App from '../App.tsx';
+import Main from '../Main.tsx';
 import { render } from 'react-testing-library';
 
-describe('<App />', () => {
+describe('<Main />', () => {
 	it('should render the component', () => {
-		const { getByText } = render(<App />);
+		const { getByText } = render(<Main />);
 		expect(getByText('Hi my world')).toBeTruthy();
 	});
 })
