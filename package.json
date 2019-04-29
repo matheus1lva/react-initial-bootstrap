@@ -32,7 +32,7 @@
     "jest-cli": "^24.3.1",
     "jest-dom": "^3.1.2",
     "jest-runner-eslint": "^0.7.3",
-    "jest-serializer-html": "^6.0.0",
+    "jest-serializer-html": "^7.0.0",
     "mini-css-extract-plugin": "^0.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
