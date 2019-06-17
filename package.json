@@ -46,7 +46,7 @@
     "url-loader": "^2.0.0",
     "webpack": "^4.32.2",
     "webpack-nano": "^0.6.2",
-    "webpack-plugin-serve": "^0.10.0"
+    "webpack-plugin-serve": "^0.11.0"
   },
   "dependencies": {
     "@types/jest": "^24.0.13",
