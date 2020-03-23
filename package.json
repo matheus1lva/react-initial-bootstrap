@@ -28,7 +28,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-react": "^7.17.0",
     "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^4.0.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "jest-runner-eslint": "^0.7.5",
@@ -42,9 +42,9 @@
     "rimraf": "^3.0.0",
     "style-loader": "^1.0.1",
     "ts-jest": "^25.1.0",
-    "url-loader": "^3.0.0",
+    "url-loader": "^4.0.0",
     "webpack": "^4.41.2",
-    "webpack-nano": "^0.8.1",
+    "webpack-nano": "^1.0.0",
     "webpack-plugin-serve": "^0.12.1"
   },
   "dependencies": {
