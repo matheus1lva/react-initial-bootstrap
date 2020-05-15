@@ -45,7 +45,7 @@
     "url-loader": "^4.0.0",
     "webpack": "^4.41.2",
     "webpack-nano": "^1.0.0",
-    "webpack-plugin-serve": "^0.12.1"
+    "webpack-plugin-serve": "^1.0.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.0.0",
