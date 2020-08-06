@@ -48,11 +48,11 @@
     "webpack-plugin-serve": "^1.0.0"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.0",
-    "@types/jest": "^25.1.0",
-    "@types/node": "^14.0.0",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.14",
     "@types/react": "^16.9.43",
-    "@types/react-dom": "^16.9.4",
+    "@types/react-dom": "^16.9.8",
     "@types/react-hot-loader": "^4.1.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.9.6"
