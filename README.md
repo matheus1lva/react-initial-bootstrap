@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/PlayMa256/react-initial-bootstrap.svg?branch=master)](https://travis-ci.org/PlayMa256/react-initial-bootstrap) [![Greenkeeper badge](https://badges.greenkeeper.io/PlayMa256/react-initial-bootstrap.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/PlayMa256/react-initial-bootstrap.svg?branch=master)](https://travis-ci.org/PlayMa256/react-initial-bootstrap)
 # React "almost complete" template
 
 Tired of having to configure everything, every single time you have to start a new project? Or even have to copy from other projects and have to reconfigure if something changes? Deps get outdated?? Well, me too!!
