@@ -48,7 +48,7 @@
     "webpack-plugin-serve": "^1.0.0"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/jest-dom": "^5.11.2",
     "@types/jest": "^25.2.3",
     "@types/node": "^14.0.14",
     "@types/react": "^16.9.43",
