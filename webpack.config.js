@@ -27,15 +27,16 @@ if (isDev) {
   }));
 } else {
   plugins.push(new MiniCssExtractPlugin({
-    filename: isDev ? '[name].css' : '[name].[contenthash].css',
-    chunkFilename: isDev ? '[id].css' : '[id].[contenthash].css'
+    filename: '[name].[contenthash].css',
+    chunkFilename: '[id].[contenthash].css'
    }))
 }
 
 module.exports = {
+  target: ["web", "es5"],
   entry,
   mode: process.env.NODE_ENV,
-  devtool: 'cheap-eval-source-map',
+  devtool: 'eval-cheap-source-map',
   module: {
     rules: [
       {
@@ -70,9 +71,8 @@ module.exports = {
     extensions: [ '.tsx', '.ts', '.js' ]
   },
   output: {
-    path: outputPath,
     publicPath: '/',
-    filename: !isDev ? 'bundle.[contenthash].js' : 'bundle.js'
+    filename: 'bundle.[contenthash].js'
   },
   plugins,
   watch: isDev

@@ -42,8 +42,8 @@
     "rimraf": "^3.0.0",
     "style-loader": "^2.0.0",
     "ts-jest": "^26.0.0",
-    "url-loader": "^4.0.0",
-    "webpack": "^4.41.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.1.0",
     "webpack-nano": "^1.0.0",
     "webpack-plugin-serve": "^1.0.0"
   },
