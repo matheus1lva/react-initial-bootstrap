@@ -1,5 +1,5 @@
 import React from 'react';
-import hotloader from 'react-hot-loader';
+import { hot } from 'react-hot-loader';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './style.css';
 import Main from './Main';
@@ -14,4 +14,4 @@ const App = () => {
     )
 };
 
-export default hotloader.hot(module)(App);
+export default hot(module)(App);
