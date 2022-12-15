@@ -55,6 +55,6 @@
     "@types/react-dom": "^16.9.11",
     "@types/react-hot-loader": "^4.1.1",
     "ts-loader": "^8.0.17",
-    "typescript": "^4.1.5"
+    "typescript": "^4.9.3"
   }
 }
